@@ -18,7 +18,7 @@
             ],
             "Condition": {
                 "StringEquals": {
-                    "ec2:ResourceTag/Owner": "Test"
+                    "ec2:ResourceTag/Owner": "Test_Env"
                 }
             }
         }
