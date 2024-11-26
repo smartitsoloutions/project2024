@@ -10,7 +10,6 @@
             "Effect": "Allow",
             "Action": [
                 "ec2:StartInstances",
-                "ec2:StopInstances",
                 "ec2:RebootInstances"
             ],
             "Resource": [
@@ -18,7 +17,7 @@
             ],
             "Condition": {
                 "StringEquals": {
-                    "ec2:ResourceTag/Owner": "Test_Env"
+                    "ec2:ResourceTag/Owner": "Test_Envgit "
                 }
             }
         }
